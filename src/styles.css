@@ -1,0 +1,62 @@
+*{
+   background-origin: border-box;
+   margin : 0;
+   padding : 0;
+}
+
+.App{
+  min-height: 100vh;
+   display: flex;
+   background:navy;
+}
+.quotes{
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  min-width: 180px;
+  padding : 30px;
+  background: yellow;
+  border-radius: 4px;
+  box-shadow: 4px 4px 1px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+p{
+  color: black;
+  font-size: 18px ;
+  word-wrap: break-word;
+}
+p:last-of-type
+{
+  margin: 10px 0;
+
+}
+button{
+  border :none;
+  outline: none ;
+  margin-right: 10px;
+
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+.btn {
+  background: cornflowerblue;
+  color:black;
+  width: 80px;
+  padding: 7px 0;
+  font-size: 14px;
+  border-radius:12px;
+  cursor:pointer;
+  transition: all 700ms ease-in-out;
+
+
+}
+.btn:hover{
+  background: #bb49bb ;
+}
